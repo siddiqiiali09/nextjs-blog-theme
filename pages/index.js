@@ -11,7 +11,7 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      <SEO title="VEX PORTFOLIO" description={globalData.blogTitle} />
+      <SEO title="VEX PORTFOLIO" description="VEX PORTFOLIO" />
       <Header name="ALI SIDDIQUI" />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
