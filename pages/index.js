@@ -15,7 +15,6 @@ export default function Index({ posts, globalData }) {
       <Header name="ALI SIDDIQUI" />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          "VEX PORTFOLIO"
           {globalData.blogTitle}
         </h1>
         <ul className="w-full">
