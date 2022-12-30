@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'VEX - PORTFOLIO';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'All rights reserved.';
+    : '2023 All Rights Reserved';
 
   return {
     name,
