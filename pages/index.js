@@ -13,6 +13,11 @@ export default function Index({ posts, globalData }) {
     <Layout>
       <SEO title="VEX PORTFOLIO" description="VEX PORTFOLIO" />
       <Header name="ALI SIDDIQUI" />
+            <div className={styles.root}>
+        <Hero
+          maxWidth={'400px'}
+          image={'/pic2.png'}
+        />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
