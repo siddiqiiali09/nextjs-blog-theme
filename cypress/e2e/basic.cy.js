@@ -4,6 +4,6 @@ describe('sample render test', () => {
   });
 
   it('displays the title text', () => {
-    cy.get('h1').contains('VEX Portfolio - ALI SIDDIQUI');
+    cy.get('h1').contains('Next.js Blog Theme');
   });
 });
