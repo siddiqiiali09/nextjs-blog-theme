@@ -13,11 +13,7 @@ export default function Index({ posts, globalData }) {
     <Layout>
       <SEO title="VEX PORTFOLIO" description="VEX PORTFOLIO" />
       <Header name="ALI SIDDIQUI" />
-            <div className={styles.root}>
-        <Hero
-          maxWidth={'400px'}
-          image={'/pic2.png'}
-        />
+          
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
@@ -25,6 +21,8 @@ export default function Index({ posts, globalData }) {
         <ul className="w-full">
           {posts.map((post) => (
             <li
+              maxWidth={'400px'}
+              image={'/pic2.png'}
               key={post.filePath}
               className="md:first:rounded-t-lg md:last:rounded-b-lg backdrop-blur-lg bg-white dark:bg-black dark:bg-opacity-30 bg-opacity-10 hover:bg-opacity-20 dark:hover:bg-opacity-50 transition border border-gray-800 dark:border-white border-opacity-10 dark:border-opacity-10 border-b-0 last:border-b hover:border-b hovered-sibling:border-t-0"
             >
